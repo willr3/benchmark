@@ -39,7 +39,7 @@ pulsarConfig:
   # consumer configs
   maxTotalReceiverQueueSizeAcrossPartitions: 500000
   receiverQueueSize: 10000
-
+  batchingPartitionSwitchFrequencyByPublishDelay: 100
 # Kafka configs
 kafkaConfig: |
   bootstrap.servers=localhost:9092
